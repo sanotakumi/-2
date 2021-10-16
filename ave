@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/ec2-user/environment/Bookers/app/views/books/index.html.erb:43 ActionView::CompiledTemplates#_app_views_books_index_html_erb___1527489944010012212_70286072537660:
+
+    [1;34m38[0m:   <% @book.errors.full_messages.each do |message| %>
+    [1;34m39[0m:     <%= message %>
+    [1;34m40[0m:   <% end %>
+    [1;34m41[0m: <% end %>
+    [1;34m42[0m: <% binding.pry %>
+ => [1;34m43[0m: <!-- form_for部分 -->
+    [1;34m44[0m: <%= form_with model:@book,local:true do |f| %>
+    [1;34m45[0m: 
+    [1;34m46[0m: <h4>Title</h4>
+    [1;34m47[0m: <%= f.text_field :title %>
+    [1;34m48[0m: 
+
